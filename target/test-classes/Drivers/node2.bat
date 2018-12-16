@@ -1,0 +1,1 @@
+java -Dwebdriver.gecko.driver=geckodriver.exe -jar selenium-server-standalone-3.141.59.jar -port 5555 -role node -hub http://localhost:5786/grid/register -browser "browserName=firefox, version=ANY, maxInstances=10, platform=WINDOWS" 
