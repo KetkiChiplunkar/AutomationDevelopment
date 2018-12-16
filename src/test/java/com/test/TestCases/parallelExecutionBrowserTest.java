@@ -57,7 +57,7 @@ public class parallelExecutionBrowserTest extends ParallelExcecution {
 	@DataProvider(name = "Authentication", parallel = true)
 	public static Object[][] credentials() {
 
-		return new Object[][] { { "chiplunkar.k1", "ket190785" } };
+		return new Object[][] { { "chiplunkar.k1", "k*" } };
 
 	}
 
